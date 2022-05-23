@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Animated Ripples background </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #044CB8
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #FFC7DC;
+  }
+
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: #8A0C3A;
+    color: pink;
+  }
+
+  .topnav a.active {
+    background-color: violet;
+    color: white;
+  }
+  </style>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class='ripple-background'>
+  <div class='circle xxlarge shade1'></div>
+  <div class='circle xlarge shade2'></div>
+  <div class='circle large shade3'></div>
+  <div class='circle mediun shade4'></div>
+  <div class='circle small shade5'></div>
+</div>
+
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="https://dersavage.github.io/main/">Main</a>
+</div>
+
+<div style="padding-left:16px">
+  <h2> The Savage welcomes you </h2>
+  <p>If you are here for programming book, please check Main.</p>
+    <p>If not, you are welcome to come back when the site has been updated.</p>
+</div>
+
+<!-- partial -->
+
+</body>
+</html>
